@@ -331,3 +331,19 @@ height: 450px;
 flex-shrink: 0;
 background: rgba(19, 19, 24, 0.05);
 }
+
+@media screen and(max-width: 600px) {
+
+    header{
+        
+        flex-direction: column;
+    }
+    main{
+        flex-direction: column;
+        
+    }
+    .main-section{
+        flex-direction: column;
+    }
+    
+}
